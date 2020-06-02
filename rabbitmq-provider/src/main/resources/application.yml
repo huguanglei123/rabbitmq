@@ -1,0 +1,12 @@
+server:
+  port: 8000
+  
+spring:  application:    name: rabbitmq-provider
+  rabbitmq:    host: 192.168.149.131
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /test001
+    publisher-confirm-type: simple
+    publisher-returns: true
+    
